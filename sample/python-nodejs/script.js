@@ -1,11 +1,11 @@
 #!/usr/bin/node-v10.15.0-linux-x64/bin/node
-//import {PythonShell} from 'python-shell';
 let {PythonShell} = require('python-shell')
+user = require("os").userInfo().username
 let options = {
   mode: 'text',
-  pythonPath: '/usr/local/bin/python3.7',
+  pythonPath: `/home/${user}/python/venv/bin/python3.7`,
   pythonOptions: ['-u'], // get print results in real-time
-  scriptPath: '/home/sysadmin/',
+  scriptPath: __dirname + '/../python/',
   //args: ['value1', 'value2', 'value3']
 };
 
