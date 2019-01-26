@@ -16,5 +16,8 @@ x
 
 
 y = ParseJson(projectpath + "/config.json")
-print(y.print_json())
+print("Project installed successfully!\n")
+print("Sample config file output below... '../config.json & ../config.yml'")
 print(config)
+print(y.print_json())
+

@@ -31,10 +31,12 @@ make
 make altinstall
 git clone git@github.com:DevManTillis/python.git 
 cd python/
+virtualenv venv
+source venv/bin/activate
 pip install -r python/requirements.txt
 ```
 
-Step 2 - Install nodejs (optional)
+Step 2 - Install nodejs (optional->if calling python form nodejs is required)
 ```
 sudo /python/sample/python-nodejs/node_setup
 npm -i python-shell
@@ -50,6 +52,8 @@ cp python/python.vim !/.vim/syntax/
 Example:
 ```
 python/sample/python/script.py
+and / or
+python/sample/python-nodejs/script.js
 ```
 
 ## Running the tests
