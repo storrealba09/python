@@ -1,4 +1,4 @@
-# Project Title
+# Python
 
 This is a framework for a basic python project. Clone  whenever you're ready to start a fresh python3 project.
 
@@ -36,9 +36,6 @@ pip install -r python/requirements.txt
 
 Step 2 - Install nodejs (optional)
 ```
-wget https://nodejs.org/dist/v10.15.0/node-v10.15.0-linux-x64.tar.xz
-tar -xzf node-v10.15.0-linux-x64.tar.xz
-mv node-v10.15.0-linux-x64 /usr/bin/
 sudo /python/sample/python-nodejs/node_setup
 npm -i python-shell
 ```
