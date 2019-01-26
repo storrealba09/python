@@ -2,4 +2,4 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from sample.core import Main
+from sample.core import Main,Sedan,Vehicle

@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "WARNING: This script will overwrite a nodejs install of the same version. If this is acceptable press enter."
+read
+wget http://nodejs.org/dist/v10.15.0/node-v10.15.0-linux-x64.tar.xz
+tar -xJf node-v10.15.0-linux-x64.tar.xz
+[ -d /usr/bin/node-v10.15.0-linux-x64/ ] && rm -rf /usr/bin/node-v10.15.0-linux-x64 
+mv -f node-v10.15.0-linux-x64 /usr/bin/
+
+#Add the following to .bash_profile for your standard user
+cat << EOF >> ~/.bash_profile
+export NODE_HOME=/usr/bin/node-v10.15.0-linux-x64/bin
+PATH=$PATH:$NODE_HOME
+EOF
+
+source ~/.bash_profile
+
+rm -rf node-v10.15.0-linux-x64.tar.xz
