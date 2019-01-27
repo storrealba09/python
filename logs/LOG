@@ -1,0 +1,24 @@
+name 'bingo' is not defined
+name 'bingo' is not defined
+ERROR: name 'bingo' is not defined
+2019-01-26 22:01:57: ERROR: name 'bingo' is not defined
+2019-01-26 22:08:33: ERROR: name 'bingo' is not defined
+2019-01-26 22:09:22: ERROR: name 'bingo' is not defined
+2019-01-26 22:11:50: ERROR: name 'bingo' is not defined
+2019-01-26 22:12:29: ERROR: name 'bingo' is not defined
+2019-01-26 22:14:00: ERROR: name 'bingo' is not defined
+2019-01-26 22:18:56: ERROR: name 'bingo' is not defined
+2019-01-26 22:57:56: ERROR: name 'bingo' is not defined
+2019-01-26 23:04:58: ERROR: name 'bingo' is not defined
+2019-01-26 23:05:32: ERROR: name 'bingo' is not defined
+2019-01-26 23:10:18: INFO: 
+2019-01-26 23:11:12: INFO: 
+2019-01-26 23:14:40: INFO: 
+2019-01-26 23:14:56: INFO: 
+2019-01-26 23:16:05: INFO: 
+2019-01-26 23:21:44: INFO: 
+2019-01-26 23:34:27: ERROR: 'module' object is not callable
+2019-01-26 23:34:27: INFO: 
+2019-01-26 23:35:29: INFO: 
+2019-01-27 00:08:04: INFO: 
+2019-01-27 00:15:14: INFO: 
